@@ -7,7 +7,7 @@ other than vasculature).
 import numpy as np
 import logging
 from matplotlib import pyplot as plt
-import cloud_management as cloud
+from etl.lib import cloud_management as cloud
 import transforms
 
 LOCATION = 'numpy/axial'
